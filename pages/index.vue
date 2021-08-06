@@ -1,20 +1,20 @@
 <template>
   <div>
     <Header :options="options" :selected="selected" @select="optionSelect" />
-    <Test />
+    <TestCopy />
   </div>
 </template>
 
 //
 <script>
 import Header from '@/components/Header.vue'
-import Test from '@/components/Test.vue'
+import TestCopy from '@/components/TestCopy.vue'
 import 'assets/styles/variables.css'
 
 export default {
   components: {
     Header,
-    Test,
+    TestCopy,
   },
   data() {
     return {
